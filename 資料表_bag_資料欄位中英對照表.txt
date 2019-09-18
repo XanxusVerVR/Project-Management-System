@@ -1,0 +1,21 @@
+資料表: bag
+資料欄位中英對照
+序號  		t_number
+發包日期 	t_condate
+專案別		t_project
+發案者		t_projector
+委外類別	t_category
+委外工作內容 t_outsourcing_content
+外包人員	t_outpeople
+外包金額	t_outmoney
+分期		t_installment
+比例		t_proportion
+分期金額	t_installment_mon
+扣款		t_debit
+扣款事由	t_debit_reason
+實付金額	t_paidmon
+交件日期	t_subdate
+請款日期	t_reqdate
+付款日期	t_paydate
+請款憑據	t_receipt
+備註		t_remark

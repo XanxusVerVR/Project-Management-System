@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+	<title>登入</title>
+	<script src="JS/jquery-2.1.4.min.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!--bootstrap必要行-->
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.css" /><!--bootstrapCSS-->
+	<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js" type="text/javascript"></script><!--bootstrapJS-->
+	<style type="text/css">
+	.wrapper {    /*置中與法*/
+	  height: 600px;
+	  background-color: #ffffff;
+	  text-align: center;
+	}
+	.wrapper:before {
+	  content: "";
+	  height: 100%;
+	  display: inline-block;
+	  vertical-align: middle;
+	}
+	.center {
+	  display: inline-block;
+	  vertical-align: middle;
+	  width: 180px;
+	  height: 120px;
+	}
+	</style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="center">
+		<form role="form" name="form" method="post" action="member/connect.php">
+			<div class="form-group">
+				<label for="exampleInputEmail1">帳號</label>
+				<input type="text" name="id" class="form-control" id="exampleInputEmail1" placeholder="輸入帳號" autofocus>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword1">密碼</label>
+				<input type="Password" name="pw" class="form-control" id="exampleInputPassword1" placeholder="密碼">
+			</div>
+			<button type="submit" class="btn btn-default">登入</button>
+			<!---<a href="register.html">申請帳號</a>----->
+		</form>
+	</div>
+</div>
+</body>
+</html>

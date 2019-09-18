@@ -1,0 +1,62 @@
+		html, body {
+		 margin: 0;
+		 padding: 0;
+		 background: #FFF8D7;
+		}
+		div2{ /*DIY文字樣式*/
+			font-size:22px;
+			font-family: Microsoft JhengHei;
+		}
+		#container {
+		 width: 900	px;
+		 background: #FFF8D7;
+		 margin: auto;
+
+		}
+		#navbar {
+		 background: red;
+		 height: 50px;
+		}
+
+		#header {
+		 background: blue;
+		 height: 200px;
+		}
+
+		#sidebar {
+		 background: darkgreen;
+		}
+
+		#content {
+		 background: #FFF8D7;
+		}
+
+		#footer {
+		 background: orange;
+		 height: 66px;
+		}
+		
+		.table{
+		 font-size:10px;
+		}
+		.noprint{display : none }/*不列印*/
+		/*設置標題*/
+		.s2{width : 40px; text-align: center;}
+		.s3{width : 75px; text-align: center;}
+		.s4{width : 50px; text-align: center;}
+		.s5{width : 50px; text-align: center;}
+		.s6{width : 64px; text-align: center;}
+		.s7{width : 270px; text-align: center;}/*委外工作內容*/
+		.s8{width : 63px; text-align: center;}/*外包人員*/
+		.s9{width : 63px; text-align: center;}
+		.s10{width : 38px; text-align: center;}/*分期*/
+		.s11{width : 38px; text-align: center;}
+		.s12{width : 63px; text-align: center;}
+		.s13{width : 38px; text-align: center;}/*扣款*/
+		.s14{width : 80px; text-align: center;}/*扣款事由**/
+		.s15{width : 63px; text-align: center;}
+		.s16{width : 75px; text-align: center;}/*交件日期*/
+		.s17{width : 75px; text-align: center;}/*請款日期*/
+		.s18{width : 75px; text-align: center;}/*付款日期*/
+		.s19{width : 63px; text-align: center;}/*付款日期*/
+		.s20{width : 38px; text-align: center;}

@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<script language="JavaScript">
+<!--
+var gt = unescape('%3e');
+var popup = null;
+var over = "Launch Pop-up Navigator";
+popup = window.open('', 'popupnav', 'width=500,height=200,resizable=1,scrollbars=auto');
+if (popup != null) {
+if (popup.opener == null) {
+popup.opener = self; 
+}
+popup.location.href = '156-2.htm';
+}
+-->
+</script>
+</head>
+<body>
+	<table border="5" align="center" >
+		<tr align="center" valign="center">
+			<td >
+				<form  action="insert_category_2.php"  method="post">
+					<p>請輸入要新增的類別：<input name="categoryadd" style="width: 100px" /><br>
+					<input  type=submit name=ok value="送出" onclick="if(confirm('您確定送出嗎?')) return true;else return false" ><br>
+					<input type="reset" value="重新填寫">
+				</form>
+			</td >
+		</tr>
+	</table>
+</body>
+
+</html>
